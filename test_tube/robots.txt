@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /file.html
+Disallow: /user/

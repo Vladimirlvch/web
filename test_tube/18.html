@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Пример формы регистрации сайта</h1>
+    <form action="file.php" method="get" enctype="multipart/form-data">
+        <div>
+            Логин: <br>
+            <input type="text" name="login"> <br>
+            Пароль: <br>
+            <input type="password" name="passw" value="Пароль"> <br>
+            URL-адрес сайта: <br>
+             <input type="text" name="url" value="https://" size="20"> <br>
+             Название сайта: <br>
+             <input type="text" name="name_site" size="20"> <br>
+             Описание сайта: <br>
+             <textarea name="descr" cols="15" rows="10"></textarea> <br>
+             Тема сайта: <br>
+
+             <select name="theme">
+                 <option value="0" selected>Тема не выбрана</option>
+                 <option value="1">Тема1</option>
+                 <option value="2">Тема2</option>
+                 <option value="3">Тема3</option>
+             </select> <br>
+
+             Баннер 88*31: <br>
+             <input type="file" name="banner" size="20"> <br>
+             <input type="reset" value="Очистить">
+             <input type="submit" value="Отправить">
+             <input type="number" step="5" required>
+             <input type="range" min="0" max="100" value="10" >
+             <input type="color" value="#FF0000">
+             <input type="search" >
+             <input type="date"> <br>
+             <datalist id="browsers">
+                 <option value="Internrt exsplorer"></option>
+                 <option value="Opera"></option>
+                 <option value="Safari"></option>
+                 <option value="Яндекс"></option>
+                 <option value="TOR!!!"></option>
+             </datalist>
+             <select name="select1">
+                <optgroup label="Отечественные">
+                    <option value="1">ВАЗ</option>
+                    <option value="2">ГАЗ</option>
+                    <option value="3">Москвич</option>
+                </optgroup>
+
+             </select>
+             <input type="text" name="browsers" list="browsers" placeholder="Ваш Web-браузер">
+         </div>
+    </form>
+</body>
+</html>
