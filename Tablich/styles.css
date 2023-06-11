@@ -1,0 +1,30 @@
+#layout{
+    width: 100%;
+    max-width:  1024px;
+    height: 300px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+body {
+    background-image: url(back.jpg);
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+    background: white;
+    border: solid 1px blue;
+}
+
+#footer {
+    text-align: center;
+}
+
+#header {
+    font-size: 30px;
+}
+
+.bookImage{
+    padding-right: 20px;
+}
